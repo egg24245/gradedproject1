@@ -1,0 +1,107 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 70px;
+  color: black;
+  text-align: center;
+}
+
+.flex-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 60px;
+  background-color: maroon;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 40px;
+  z-index: 1000;
+}
+
+.flex-container a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 15px;
+  border: 10px solid white;
+}
+.flex-container a:hover {
+  background-color: black;
+  text-decoration: underline;
+  color: white;
+  cursor: pointer;
+  border-color: black;
+}
+.site-name {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 15px;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+.bgimgs {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  margin-top: 60px;
+}
+
+.bg-image {
+  flex: 1;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+#img1 {
+  background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+#img2 {
+  background-image: url(https://img.freepik.com/free-photo/3d-abstract-flow-background_1048-10462.jpg?semt=ais_hybrid&w=740);
+}
+
+#img3 {
+  background-image: url(https://img.freepik.com/free-vector/abstract-red-circle-black-background-technology_1142-9928.jpg?ga=GA1.1.1532255735.1748609121&semt=ais_hybrid&w=740);
+}
+.section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 32px;
+}
+
+#section1 {
+  background-image: url("https://images.hdqwalls.com/wallpapers/penguins-in-antarctica-5k-zg.jpg");
+}
+
+#section2 {
+  background-image: url("https://ussec.org/wp-content/uploads/2020/09/region-sub-saharan-africa-2.jpg");
+}
+
+#section3 {
+  background-image: url("https://wallpapercat.com/w/full/8/b/2/700036-3840x2160-desktop-4k-amazon-rain-forest-background-image.jpg");
+}
