@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+      const backtotop = document;
+    </script>
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <title>clonesite</title>
@@ -8,22 +11,63 @@
 
   <body>
     <div class="flex-container">
-      <div class="site-name">perhaps animal related</div>
+      <div class="site-name">A Slice of nature</div>
       <div class="nav-links">
         <a class="active" href="#Home">Home</a>
         <a href="#About">About</a>
-        <a href="#Contact">Contact</a>
+        <a href="#Contact">social media and gallery</a>
       </div>
     </div>
 
-    <div id="section1" class="section"><h1>Welcome</h1></div>
-    <div id="section2" class="section"><h2>text to be inserted</h2></div>
-    <div id="section3" class="section"><h3>text to be inserted</h3></div>
+    <div id="section1" class="section">
+      <h1>For your viewing pleasure</h1>
+      <p>
+        welcome to our amazing gallery,please do bare in mind it is also a work
+        in progress
+      </p>
+    </div>
+
+    <div id="section2" class="section section-left">
+      <h2>
+        <a href="#section3" style="color: inherit; text-decoration: underline"
+          >link to gallery and social media</a
+        >
+      </h2>
+    </div>
+
+    <div id="section3" class="section">
+      <img
+        src="https://media.istockphoto.com/id/176455396/photo/fennec-fox.jpg?s=612x612&w=0&k=20&c=8PhKs8IIIlniUs5Om9lA-2W9A8fDL-VjH2Z1laIGOh8="
+      />
+
+      <img
+        src="https://biomanuexpeditions.com/wp-content/uploads/2024/08/cutest-animals-in-the-Amazon1-1.jpg"
+      />
+
+      <img
+        src="https://www.onegreenplanet.org/wp-content/uploads/2019/04/shutterstock_130177340.jpg"
+      />
+
+      <img
+        src="https://media.istockphoto.com/id/495292220/photo/colorful-cute-toucan-tropical-bird-in-brazilian-amazon-blurred-background.jpg?s=612x612&w=0&k=20&c=UUgfaSISnRJOGQfmzsUQyWIo_RFWHe3JPBmO3K3E6LA="
+      />
+    </div>
+
+    <button
+      onclick="window.scrollTo({top: 0, behavior: 'smooth'});"
+      id="backtotop"
+    >
+      Back to Top
+    </button>
   </body>
 
-  <footer>
+  <footer id="Contact">
     Find us on social media here:
-    <a href="https://x.com/home">X (previously Twitter)</a> website and content
-    are property of name to be chosen™
+    <a href="https://x.com/home"
+      >X (previously Twitter)<img
+        src="https://animationvisarts.com/wp-content/uploads/2023/08/23-1.png"
+        style="width: 16px; height: 22px"
+    /></a>
+    website and content are property of A slice of nature™
   </footer>
 </html>
