@@ -2,4 +2,6 @@ while having already coded alot of the intended features before this edit,the in
 
 i also intend for the site to be eye catching in some regard while not being overbearing,i feel the addition of different appealing enviroments was a good one to assist in this.
 
-my first main focus was tackling the nav bar as i feared it would be difficult,it was.i intend to add a button that returns to the top of the page,perhaps another social media link and to achieve smooth scrolling
+my first main focus was tackling the nav bar as i feared it would be difficult,it was.i intend to add a button that returns to the top of the page,perhaps another social media link and to achieve smooth scrolling,also for the nav links to take me to designated places
+
+i now intend to use absolute positioning to overlay text onto an image
